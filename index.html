@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>My website</title>
+	<script>
+		var a;
+	function hide_show(){
+		if(a==1){
+			document.getElementById("image").style.display= "inline";
+			return a = 0;
+		}else{
+			document.getElementById("image").style.display = "none";
+			return a = 1;
+		}
+	}
+		</script>
+</head>
+<body>
+	<nav>
+		<label class="logo">Portfolio of Aj</label>
+        <ul class="show">
+            <li><a class="active" href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+			<li><a href="#contact">Contact-info</a></li>
+        </ul>
+	</nav>
+	<section id="hero">
+			<div class="hero container">
+				<div>
+					<h1>Hello,<span></span></h1>
+					<h1>My Name is<span></span> </h1>
+					<h1>Ajay.<span></span></h1>
+					<a href="#" type="button" class="cta">Portfolio</a>
+				</div>
+			</div>
+	</section>
+	<section id="services">
+			<div class="service container">
+				<div class="service-top">
+					<h1 class="section-title">Serv<span>i</spam>ces</h1>
+					<p>I make attractive & awesome designs for your online website. I am Aj, a creative web developer, specializing in Web Design, Digital Marketing and Brand Identity Designs.</p>
+				</div>
+				<div class="service-bottom">
+					<div class="service-item">
+						<div class="box1">
+						<div class="icon">
+							<img src="https://img.icons8.com/nolan/64/service.png"/>
+						<h2>Web Design</h2>
+						<P>Professional Website Attract To Your Customer & Push Them To Stay Longer On Your Website. So Get Your Dynamic & Professional Website Designed Now With Us. Best Web Design Services. Sponsor-A-Child. Apply Online.</P></div>
+						</div>
+						<div class="box2">
+						<div class="icon">
+							<img src="https://img.icons8.com/nolan/64/service.png"/>
+						<h2>Web Design</h2>
+						<P>Professional Website Attract To Your Customer & Push Them To Stay Longer On Your Website. So Get Your Dynamic & Professional Website Designed Now With Us. Best Web Design Services. Sponsor-A-Child. Apply Online.</P></div>
+						</div>
+						<div class="box3">
+						<div class="icon">
+							<img src="https://img.icons8.com/nolan/64/service.png"/>
+						<h2>Web Design</h2>
+						<P>Professional Website Attract To Your Customer & Push Them To Stay Longer On Your Website. So Get Your Dynamic & Professional Website Designed Now With Us. Best Web Design Services. Sponsor-A-Child. Apply Online.</P></div>
+						</div>
+						<div class="box4">
+						<div class="icon">
+							<img src="https://img.icons8.com/nolan/64/service.png"/>
+						<h2>Web Design</h2>
+						<P>Professional Website Attract To Your Customer & Push Them To Stay Longer On Your Website. So Get Your Dynamic & Professional Website Designed Now With Us. Best Web Design Services. Sponsor-A-Child. Apply Online.</P></div>
+						</div>
+						<div class="box5">
+						<div class="icon">
+							<img src="https://img.icons8.com/nolan/64/service.png"/>
+						<h2>Web Design</h2>
+						<P>Professional Website Attract To Your Customer & Push Them To Stay Longer On Your Website. So Get Your Dynamic & Professional Website Designed Now With Us. Best Web Design Services. Sponsor-A-Child. Apply Online.</P></div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section id="projects">
+		<div class="projects container">
+			<div class="projects-header">
+				<h1 class="section-title">Recent <span>Projects</span></h1>
+			</div>
+			<div class="all-projects">
+				<div class="project-item">
+					<div class="project-info">
+						<h1>Project 1</h1>
+						<h2>Coding is Love</h2>
+						<p>I make kick-ass designs & your online presence look awesome! I am Aj, a creative web developer, specializing in Web Design, Digital Marketing and Brand Identity Designs.</p>
+					</div>
+					<div class="project-img">
+					</div>
+				</div>
+				<div class="project-item">
+					<div class="project-info">
+						<h1>Project 2</h1>
+						<h2>Coding is Love</h2>
+						<p>I make kick-ass designs & your online presence look awesome! I am Aj, a creative web developer, specializing in Web Design, Digital Marketing and Brand Identity Designs.</p>
+					</div>
+					<div class="project-img">
+					</div>
+				</div>
+				<div class="project-item">
+					<div class="project-info">
+						<h1>Project 3</h1>
+						<h2>Coding is Love</h2>
+						<p>I make kick-ass designs & your online presence look awesome! I am Aj, a creative web developer, specializing in Web Design, Digital Marketing and Brand Identity Designs.</p>
+					</div>
+					<div class="project-img">
+					</div>
+				</div>
+				<div class="project-item">
+					<div class="project-info">
+						<h1>Project 4</h1>
+						<h2>Coding is Love</h2>
+						<p>I make kick-ass designs & your online presence look awesome! I am Aj, a creative web developer, specializing in Web Design, Digital Marketing and Brand Identity Designs.</p>
+					</div>
+					<div class="project-img">
+					</div>
+				</div>
+				<div class="project-item">
+					<div class="project-info">
+						<h1>Project 5</h1>
+						<h2>Coding is Love</h2>
+						<p>I make kick-ass designs & your online presence look awesome! I am Aj, a creative web developer, specializing in Web Design, Digital Marketing and Brand Identity Designs.</p>
+					</div>
+					<div class="project-img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div class="about container">
+			<div class="col-left">
+				<div class="about-img">
+					<img id="image"src="img.JPG">
+					
+				</div>
+				<button onclick="hide_show()" class="hide">Hide and Show</button>
+			</div>
+			<div class="col-right">
+				<h1 class="section-title">About <span>Me</span></h1>
+				<h2>Web Developer</h2>
+				<p>I make kick-ass designs & your online presence look awesome! I am Aj, a creative web developer, specializing in Web Design, Digital Marketing and Brand Identity Designs.</p>
+				<a href="cv.pdf" type="button" class="cta"><b>Download Resume</b></a>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div class="contact container">
+			<div>
+				<h1 class="section-title">Contact <span>info</span></h1>
+			</div>
+			<div class="contact-items">
+				<div class="contact-item">
+					<div class="icon"><svg xmlns="http://www.w3.org/2000/svg" x="0px"	 y="0px"
+						width="50" height="50"
+						viewBox="0 0 172 172"
+						style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e74c3c"><path d="M121.69,102.5636c-2.32773,-1.36453 -5.18867,-1.33587 -7.50493,0.04013l-11.7304,6.98893c-2.62587,1.5652 -5.90533,1.38173 -8.31333,-0.4988c-4.1624,-3.2508 -10.86467,-8.7204 -16.69547,-14.5512c-5.8308,-5.8308 -11.3004,-12.53307 -14.5512,-16.69547c-1.88053,-2.408 -2.064,-5.68747 -0.4988,-8.31333l6.98893,-11.7304c1.38173,-2.31627 1.3932,-5.20013 0.02867,-7.52787l-17.21147,-29.40053c-1.6684,-2.84373 -4.98227,-4.24267 -8.1872,-3.4572c-3.1132,0.7568 -7.1552,2.60293 -11.39213,6.8456c-13.26693,13.26693 -20.3132,35.64413 29.57827,85.5356c49.89147,49.89147 72.26293,42.85093 85.5356,29.57827c4.2484,-4.2484 6.0888,-8.29613 6.85133,-11.41507c0.774,-3.1992 -0.602,-6.49013 -3.44,-8.1528c-7.0864,-4.1452 -22.37147,-13.09493 -29.45787,-17.24587z"></path></g></g></svg>
+					</div>
+					<div class="contact-info">
+						<h1>Phone</h1>
+						<h2>+977 9813106901</h2>
+						<h2>+977 9813106901</h2>
+					</div>
+				</div>
+				<div class="contact-item">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="64" height="64"
+						viewBox="0 0 172 172"
+						style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g id="original-icon" fill="#e74c3c"><path d="M63.57617,10.75c-3.59033,0 -6.96021,1.39624 -9.50073,3.93677l-17.88867,17.88867c-2.54053,2.54053 -3.93677,5.9104 -3.93677,9.50073v18.21411l-22.96973,13.78393c-2.40405,1.43823 -3.90527,4.09424 -3.90527,6.90772v72.20557c0,4.44067 3.62183,8.0625 8.0625,8.0625h145.125c4.44067,0 8.0625,-3.62183 8.0625,-8.0625v-72.20557c0,-2.81348 -1.50122,-5.46948 -3.90527,-6.90772l-22.96973,-13.78393v-41.47778c0,-4.44067 -3.62183,-8.0625 -8.0625,-8.0625zM64.5,16.125h67.1875c1.48022,0 2.6875,1.20728 2.6875,2.6875v64.5c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-16.75488l20.19824,12.12524c0.80835,0.48291 1.30176,1.36474 1.30176,2.29907v3.27539l-71.95361,32.2605c-2.08911,0.93433 -4.50366,0.93433 -6.59277,0l-71.95361,-32.2605v-3.27539c0,-0.93433 0.49341,-1.82666 1.30176,-2.29907l20.19824,-12.12524v16.75488c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-40.3125h18.8125c4.44067,0 8.0625,-3.62183 8.0625,-8.0625zM59.125,17.46875v17.46875c0,1.48022 -1.20728,2.6875 -2.6875,2.6875h-17.46875c0.29395,-0.44092 0.62988,-0.86084 1.01831,-1.24927l17.88867,-17.88867c0.38843,-0.38843 0.80835,-0.72436 1.24927,-1.01831zM83.3125,43c-10.37207,0 -18.8125,8.44043 -18.8125,18.8125v16.125c0,10.37207 8.44043,18.8125 18.8125,18.8125h16.125c1.49072,0 2.6875,-1.20728 2.6875,-2.6875c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875h-16.125c-7.41162,0 -13.4375,-6.02588 -13.4375,-13.4375v-16.125c0,-7.41162 6.02588,-13.4375 13.4375,-13.4375h5.375c7.41162,0 13.4375,6.02588 13.4375,13.4375v16.125c0,1.48022 -1.20728,2.6875 -2.6875,2.6875c-1.48022,0 -2.6875,-1.20728 -2.6875,-2.6875v-13.4375c0,-5.9314 -4.8186,-10.75 -10.75,-10.75c-5.9314,0 -10.75,4.8186 -10.75,10.75v10.75c0,5.9314 4.8186,10.75 10.75,10.75c2.82397,0 5.375,-1.11279 7.29614,-2.89746c1.48022,1.75317 3.66382,2.89746 6.14136,2.89746c4.44067,0 8.0625,-3.62183 8.0625,-8.0625v-16.125c0,-10.37207 -8.44043,-18.8125 -18.8125,-18.8125zM86,59.125c2.96045,0 5.375,2.41455 5.375,5.375v10.75c0,2.96045 -2.41455,5.375 -5.375,5.375c-2.96045,0 -5.375,-2.41455 -5.375,-5.375v-10.75c0,-2.96045 2.41455,-5.375 5.375,-5.375zM10.75,90.15723l69.74902,31.26318c1.75317,0.77685 3.63233,1.16528 5.50098,1.16528c1.86865,0 3.7478,-0.38843 5.50098,-1.16528l69.74902,-31.26318v63.03027c0,1.48022 -1.20728,2.6875 -2.6875,2.6875h-145.125c-1.48022,0 -2.6875,-1.20728 -2.6875,-2.6875zM18.8125,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM32.25,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM45.6875,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM59.125,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM72.5625,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM86,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM99.4375,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM112.875,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM126.3125,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM139.75,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875zM153.1875,134.375c-1.49072,0 -2.6875,1.20728 -2.6875,2.6875v5.375c0,1.48022 1.19678,2.6875 2.6875,2.6875c1.49072,0 2.6875,-1.20728 2.6875,-2.6875v-5.375c0,-1.48022 -1.19678,-2.6875 -2.6875,-2.6875z"></path></g><path d="" fill="none"></path></g></g></svg>
+					</div>
+					<div class="contact-info">
+						<h1>Email</h1>
+						<h2>ajayanishstha@
+						gmail.com</h2>
+					</div>
+				</div>
+				<div class="contact-item">
+					<div class="icon">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="48" height="48"
+						viewBox="0 0 172 172"
+						style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e74c3c"><path d="M86,17.91667c-23.71092,0 -43,19.28908 -43,43c0,17.21792 21.28651,47.22884 33.97868,63.58317c2.17867,2.80933 5.47024,4.42318 9.02132,4.42318c3.55108,0 6.84265,-1.61384 9.02132,-4.42318c12.69217,-16.35433 33.97868,-46.36526 33.97868,-63.58317c0,-23.71092 -19.28908,-43 -43,-43zM86,50.16667c5.93758,0 10.75,4.81242 10.75,10.75c0,5.93758 -4.81242,10.75 -10.75,10.75c-5.93758,0 -10.75,-4.81242 -10.75,-10.75c0,-5.93758 4.81242,-10.75 10.75,-10.75zM42.01318,107.5c-4.95217,0 -9.4572,2.92445 -11.46387,7.44661l-7.95752,17.91667c-1.73075,3.89508 -1.38417,8.3532 0.93783,11.92578c2.32558,3.57617 6.25846,5.71094 10.51904,5.71094h103.89567c4.26058,0 8.19704,-2.13477 10.51904,-5.71094c2.32558,-3.57258 2.67557,-8.02711 0.94482,-11.92578l-7.95752,-17.91667c-2.01025,-4.52217 -6.50811,-7.44661 -11.46386,-7.44661h-11.66683c-2.28258,3.45792 -4.75945,7.03767 -7.43262,10.75h19.09945c0.70592,0 1.35103,0.41522 1.63769,1.0638l7.95752,17.91667c0.344,0.774 0.06769,1.4031 -0.13297,1.70768c-0.20067,0.30458 -0.65206,0.81185 -1.49772,0.81185h-103.90267c-0.84567,0 -1.30764,-0.51427 -1.50472,-0.81885c-0.19708,-0.30458 -0.47339,-0.92668 -0.13297,-1.70068l7.96452,-17.91667c0.28667,-0.645 0.93178,-1.0638 1.63769,-1.0638h19.09245c-2.67675,-3.71233 -5.14662,-7.29208 -7.42562,-10.75z"></path></g></g></svg>
+					</div>
+					<div class="contact-info">
+						<h1>Address</h1>
+						<h2>Kathmandu</h2>
+						<h2>Nepal</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="footer container">
+			<div class="brand">
+				<h1><span>A</span>j <span>S</span>hrestha</h1>
+				<h2>Your Compete Web Solution</h2>
+			</div>
+			<div class="social-icon">
+				<div class="social-item">
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="96" height="96"
+						viewBox="0 0 226 226"
+						style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#e74c3c"><path d="M178.91667,28.25h-131.83333c-10.40542,0 -18.83333,8.42792 -18.83333,18.83333v131.83333c0,10.40542 8.42792,18.83333 18.83333,18.83333h71.76442v-65.54942h-22.06325v-25.66042h22.06325v-18.88042c0,-21.88433 13.38108,-33.81525 32.91125,-33.81525c6.58225,-0.01883 13.15508,0.32017 19.69967,0.98875v22.8825h-13.447c-10.64083,0 -12.7125,5.0285 -12.7125,12.44883v16.33792h25.425l-3.30525,25.66042h-22.27042v65.58708h33.76817c10.40542,0 18.83333,-8.42792 18.83333,-18.83333v-131.83333c0,-10.40542 -8.42792,-18.83333 -18.83333,-18.83333z"></path></g></g></svg>
+					</a>
+				</div>
+				<div class="social-item">
+					<a href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="96" height="96"
+						viewBox="0 0 226 226"
+						style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#e74c3c"><path d="M178.91667,28.25h-131.83333c-10.40542,0 -18.83333,8.42792 -18.83333,18.83333v131.83333c0,10.40542 8.42792,18.83333 18.83333,18.83333h131.83333c10.40542,0 18.83333,-8.42792 18.83333,-18.83333v-131.83333c0,-10.40542 -8.42792,-18.83333 -18.83333,-18.83333zM160.55417,89.59017c0,0.80983 0,1.61025 0,3.22992c0,30.67008 -23.40983,66.18975 -66.18975,66.18975c-12.91025,0 -25.02008,-4.03975 -35.51025,-10.49017c1.61025,0 4.03975,0 5.65,0c10.49017,0 20.98975,-4.03975 29.05983,-9.68975c-10.49017,0 -18.56025,-7.26025 -21.79017,-16.14017c1.61025,0 3.22992,0.80983 4.03975,0.80983c2.42008,0 4.03975,0 6.45983,-0.80983c-10.49017,-2.42008 -18.56025,-11.3 -18.56025,-22.6c3.22992,1.61025 6.45983,2.42008 10.49017,3.22992c-6.45983,-5.65 -10.49017,-12.10983 -10.49017,-20.17992c0,-4.03975 0.80983,-8.07008 3.22992,-11.3c11.3,13.72008 28.25,23.40983 47.62008,24.21025c0,-1.61025 -0.80983,-3.22992 -0.80983,-5.65c0,-12.91025 10.49017,-23.40983 23.40983,-23.40983c6.45983,0 12.91025,2.42008 16.95,7.26025c5.65,-0.80983 10.49017,-3.22992 14.52992,-5.65c-1.61025,5.65 -5.65,9.68975 -10.49017,12.91025c4.84017,-0.80983 8.87992,-1.61025 13.72008,-4.03975c-3.24875,4.859 -7.27908,8.88933 -11.31883,12.11925z"></path></g></g></svg>
+					</a>
+				</div>
+				<div class="social-item">
+					<a href="https://www.instagram.com/iam_aj_stha/">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+   						width="96" height="96"
+						viewBox="0 0 172 172"
+						style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e74c3c"><path d="M59.125,17.91667c-22.72192,0 -41.20833,18.48642 -41.20833,41.20833v53.75c0,22.72192 18.48642,41.20833 41.20833,41.20833h53.75c22.72192,0 41.20833,-18.48642 41.20833,-41.20833v-53.75c0,-22.72192 -18.48642,-41.20833 -41.20833,-41.20833zM121.83333,43c3.95958,0 7.16667,3.20708 7.16667,7.16667c0,3.956 -3.20708,7.16667 -7.16667,7.16667c-3.95958,0 -7.16667,-3.21067 -7.16667,-7.16667c0,-3.95958 3.20708,-7.16667 7.16667,-7.16667zM86,50.16667c19.7585,0 35.83333,16.07483 35.83333,35.83333c0,19.7585 -16.07483,35.83333 -35.83333,35.83333c-19.7585,0 -35.83333,-16.07483 -35.83333,-35.83333c0,-19.7585 16.07483,-35.83333 35.83333,-35.83333zM86,60.91667c-13.85314,0 -25.08333,11.23019 -25.08333,25.08333c0,13.85314 11.23019,25.08333 25.08333,25.08333c13.85314,0 25.08333,-11.23019 25.08333,-25.08333c0,-13.85314 -11.23019,-25.08333 -25.08333,-25.08333z"></path></g></g></svg>
+					</a>
+				</div>
+				<div class="social-item">
+					<a href="https://www.instagram.com/iam_aj_stha/">
+						<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						width="96" height="96"
+						viewBox="0 0 172 172"
+						style=" fill:#000000;"><g transform="translate(4.73,4.73) scale(0.945,0.945)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g id="original-icon 1" fill="#e74c3c" stroke="#e54d19" stroke-width="10" stroke-linejoin="round"><path d="M139.12011,25.53125c9.65821,1.42774 17.34278,8.98633 19.06446,18.68652c1.55371,8.48243 3.06543,20.87013 3.06543,36.40723c0,15.49511 -1.51172,27.88281 -3.02344,36.40723c-1.76367,9.7002 -9.44824,17.25879 -19.10645,18.68652h-0.04199c-11.84179,1.76368 -31.28418,4.03125 -53.07812,4.03125c-21.79395,0 -41.27832,-2.26757 -53.12011,-4.03125c-9.65821,-1.46973 -17.34277,-8.98632 -19.10645,-18.68652c-1.51172,-8.48243 -3.02344,-20.87011 -3.02344,-36.40723c0,-15.5371 1.51172,-27.9248 3.02344,-36.40723c1.76368,-9.70019 9.44824,-17.25878 19.10645,-18.68652c11.7998,-1.76367 31.2002,-4.03125 53.12011,-4.03125c21.91993,0 41.32031,2.26758 53.12011,4.03125zM34.47558,36.19727h-0.04199c-5.03906,0.71386 -9.1123,4.66112 -10.07812,9.91016c-1.38574,7.93652 -2.85547,19.65234 -2.85547,34.51757c0,14.82324 1.46973,26.53906 2.85547,34.47558c0.96582,5.29102 5.08105,9.23828 10.12011,9.99415c11.46388,1.67969 30.48633,3.90527 51.52442,3.90527c21.03808,0 40.01855,-2.22558 51.52442,-3.90527c5.08105,-0.75586 9.15429,-4.70312 10.12011,-9.99415c1.38574,-7.89453 2.85547,-19.65234 2.85547,-34.47558c0,-14.82324 -1.46973,-26.58105 -2.89746,-34.51757c-0.96582,-5.24903 -5.03906,-9.19629 -10.07812,-9.95216c-11.42187,-1.72168 -30.36035,-3.90527 -51.52442,-3.90527c-21.16406,0 -40.10254,2.22558 -51.52442,3.94727zM118.25,80.625l-53.75,26.875v-53.75z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><g id="original-icon" fill="#e74c3c" stroke="none" stroke-width="1" stroke-linejoin="miter"><path d="M86,21.5c-21.91992,0 -41.32031,2.26758 -53.12011,4.03125c-9.65821,1.42774 -17.34277,8.98633 -19.10645,18.68652c-1.51172,8.48243 -3.02344,20.87013 -3.02344,36.40723c0,15.53711 1.51172,27.9248 3.02344,36.40723c1.76368,9.7002 9.44824,17.21679 19.10645,18.68652c11.84179,1.76368 31.32617,4.03125 53.12011,4.03125c21.79395,0 41.23633,-2.26757 53.07813,-4.03125h0.04199c9.65821,-1.42773 17.34278,-8.98632 19.10645,-18.68652c1.51172,-8.52442 3.02344,-20.91211 3.02344,-36.40723c0,-15.5371 -1.51172,-27.9248 -3.06543,-36.40723c-1.72168,-9.70019 -9.40625,-17.25878 -19.06446,-18.68652c-11.7998,-1.76367 -31.20019,-4.03125 -53.12011,-4.03125zM86,32.25c21.16406,0 40.10254,2.18359 51.52442,3.90527c5.03906,0.75586 9.1123,4.70313 10.07813,9.95216c1.42773,7.93652 2.89746,19.69433 2.89746,34.51757c0,14.82324 -1.46973,26.58105 -2.85547,34.47558c-0.96582,5.29102 -5.03906,9.23828 -10.12011,9.99415c-11.50586,1.67969 -30.48633,3.90527 -51.52442,3.90527c-21.03808,0 -40.06054,-2.22558 -51.52442,-3.90527c-5.03906,-0.75586 -9.15429,-4.70312 -10.12011,-9.99415c-1.38574,-7.93652 -2.85547,-19.65234 -2.85547,-34.47558c0,-14.86523 1.46973,-26.58105 2.85547,-34.51757c0.96582,-5.24903 5.03906,-9.19629 10.07813,-9.91016h0.04199c11.42188,-1.72169 30.36035,-3.94727 51.52442,-3.94727zM64.5,53.75v53.75l53.75,-26.875z"></path></g><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path><path d="" fill="none" stroke="none" stroke-width="1" stroke-linejoin="miter"></path></g></g></svg>
+					</a>
+				</div>
+			</div>
+			<p>Copyright 2020 Aj. All rights reserved</p>
+		</div>
+	</section>
+</body>
+</html>
